@@ -61,8 +61,14 @@ body {
   margin-top: 100px;
 }
 
+.errands {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
 .help-btn {
-  width: 105px;
+  width: 150px;
   margin: 20px;
 }
 
@@ -162,7 +168,7 @@ body {
 }
 
 .testimonials {
-  border-left: 4px solid #7b1798;
+  border-left: 4px solid#ff4500;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -254,4 +260,29 @@ hr {
   margin-bottom: 0;
   padding-bottom: 20px;
   text-align: center;
+}
+
+/* test */
+.footer-link {
+  color: #fff;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: blue;
+}
+
+.container1 {
+  color: white;
+}
+
+.footer-info {
+  font-size: 15px;
+  font-weight: 450;
+  margin-top: 10px;
+}
+
+.color {
+  color: lightgrey;
 }

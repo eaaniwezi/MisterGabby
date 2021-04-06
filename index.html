@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MisterGabby</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.ico">
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
@@ -29,10 +30,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#top">HOME</a>
+            <a class="nav-link" href="#banner">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#sevices">SERVICES</a>
+            <a class="nav-link" href="#services">SERVICES</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#about">ABOUT</a>
@@ -54,10 +55,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <p class="promo-title">MisterGabby Errands Services</p>
+          <p class="promo-title">MisterGabby <br> Errands Services</p>
           <br>
           <p class="errands">WE RUN <br> ERRANDS FOR YOU IN MOSCOW. <br> WITH US, LOGISTICS IS SUPER EASY!<output></output></p>
-          <a href=""><img src="images/help.png" class="help-btn" alt="Need help?"></a>Need Anything Done in Moscow?
+          <a class="errands" href=""><img src="images/call.png" class="help-btn" alt="Need help?">Need Anything Done in Moscow?</a>
         </div>
         <div class="col-md-6 text-center">
           <img src="images/package.png" class="img-fluid package-btn" alt="Moscow">
@@ -92,9 +93,9 @@
           <img src="images/tour.png" class="service-img" alt="documents" srcset="">
           <h4>Tourist Guide</h4>
           <p>Are you bothered about getting lost in Moscow? Dont bother much!! We got you covered</p>
-        </div>
+        </div>   
       </div>
-      <button type="button" class="btn">All services</button>
+      <!-- <button type="button" class="btn">All services</button> -->
     </div>
   </section>
 
@@ -131,9 +132,11 @@
       <br>
       <div class="row offset-1">
         <div class="col-md-5 testimonials">
-          <P>Thanks Man..You really saved me alot stress</P>
+          <P>What supposed to take 1 month happened in a week. 
+            It was the attention and seriousness for me as you replied every message fast explaining in details about the process.
+            Indeed it was the best experience with MisterGabby Errands services. </P>
           <img src="images/face.jpg" alt="" srcset="">
-          <p class="user-detail"><b>Lewiz</b><br>Software Developer</p>
+          <p class="user-detail"><b>Dr. Bisola Coker</b><br>Ekaterinburg</p>
         </div>
         <div class="col-md-5 testimonials">
           <P>Thanks Man..You really saved me alot stress</P>
@@ -143,10 +146,11 @@
       </div>
     </div>
   </section>
+  
 
   <!-- Socials  -->
 
-  <section id="social-media">
+  <!-- <section id="social-media">
     <div class="container text-center">
       <p>FIND US ON SOCIAL MEDIA</p>
       <div class="social-icons"></div>
@@ -155,7 +159,7 @@
       <i class="social-icon fab fa-instagram"></i>
       <i class="social-icon fas fa-envelope"></i>
     </div>
-  </section>
+  </section> -->
 
   <!-- footer -->
 
@@ -170,31 +174,53 @@
         <div class="row">
           <div class="col-md-4 footer-box">
             <img src="images/icon.jfif" alt="" srcset="">
-            <p>ssdfghjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+            <p class="footer-info">Work with MisterGabby Errands Services Moscow. <br> With Us Logistics is SUPEREASY</p>
           </div>
           <div class="col-md-4 footer-box">
            <p><b>CONTACT US</b></p>
-           <p><i class="fas fa-map-marker-alt"></i>MISTER GABBY</p>
-           <p><i class="fas fa-phone-alt"></i> 000000123456789</p>
-           <p>gabby@gabby.com</p>
+            <div class="container1">
+              <a class="footer-link"  href="https://www.facebook.com/MisterGabby-108440044261540">Facebook</a> 
+              <br>
+              <br>
+              <a class="footer-link" href="https://www.instagram.com/mistergabby/">Instagram</a>
+              <br>
+              <br>
+              <a class="footer-link" href="tel:+79778308260 ">Mobile line</a>
+              <br>
+              <br>
+              <a class="footer-link" href="tel:+79778308260 ">Telegram</a>
+              <br>
+              <br>
+              <a class="footer-link" href="tel:+79778308260 ">Whatsapp</a>
+            </div>
           </div>
           <div class="col-md-4 footer-box">
-            <p><b>SUBSCRIBE NEWSLETTER</b></p>
-            <input type="email" class="form-control" placeholder="Your Email">
-            <br>
-            <button type="button" class="btn ">Subcribe</button>
+            <p><b>DROP A LETTER FOR US</b></p>
+
+            <form action="mailto:mistergabbyservices@gmail.com"method="post" enctype="text/plain">
+              <input type="text" class="form-control" placeholder="Your Name" name="YourName" value="">
+              <input type="email" class="form-control" placeholder="Your Email" name="YourEmail" value="">
+
+              <label>Your Message</label><br>
+              <textarea name="Your Message" rows="10" cols="30"></textarea>
+              <input class="btn" type="submit" name="">
+            </form>
+
+
+
            </div>
         </div>
         <hr>
-        <p class="copyright">Website created by Aninwezi</p>
+        <p class="copyright">© 2021 All Rights Reserved</p>
+        <p class="copyright color">Website created by Aninwezi</p>
       </div>
     </div>
   </section>
 
   <!-- smooth scroll -->
-  <script src="smooth-scroll.js"></script>
+  <!-- <script src="smooth-scroll.js"></script>
   <script>
     var scroll = new SmoothScroll('a[href*="#"]');
-  </script>
+  </script> -->
 </body>
 </html>
