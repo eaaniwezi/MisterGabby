@@ -14,12 +14,17 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, orange, #ff4500);
   /* padding: 0 !important; */
 }
 
 .navbar-brand {
   height: 40px;
+  padding-left: 20px;
+}
+
+.navbar-brand img {
+  height: 100px;
   padding-left: 20px;
 }
 
@@ -40,11 +45,14 @@ body {
 }
 
 /* banner section */
-
 #banner {
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, orange, #ff4500);
   color: #fff;
   padding-top: 5%;
+}
+
+.bottom-img {
+  width: 100%;
 }
 
 .promo-title {
@@ -73,7 +81,6 @@ body {
 }
 
 /* services */
-
 #services {
   padding: 80px 0;
 }
@@ -95,7 +102,7 @@ body {
 
 .title::before {
   content: "";
-  background: #7b1798;
+  background-image: linear-gradient(to right, orange, #ff4500);
   height: 5px;
   width: 200px;
   margin-left: auto;
@@ -115,17 +122,20 @@ body {
   display: block;
   transform: translateY(9px);
 } */
-
 #sevices .btn-primary {
   box-shadow: none;
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, orange, #ff4500);
+}
+
+.btn {
+  background-image: linear-gradient(to right, orange, #ff4500);
+  color: #fff !important;
 }
 
 /* About Us*/
-
 #about {
   background: #f8f9fa;
   padding-bottom: 50px;
@@ -147,7 +157,6 @@ body {
 }
 
 /* testimonials */
-
 #testimonials {
   margin: 100px 0;
 }
@@ -171,7 +180,6 @@ body {
 }
 
 /* social-media */
-
 #social-media {
   background: #f8f9fa;
   padding: 100px 0;
@@ -193,4 +201,57 @@ body {
 
 .social-icons a:hover img {
   transform: translateY(-10px);
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* footer */
+
+#footer {
+  background-image: linear-gradient(to right, orange, #ff4500);
+  color: #fff;
+}
+
+.footer-img {
+  width: 100%;
+}
+
+.footer-box {
+  padding: 20px;
+}
+
+.footer-box img {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+.footer-box .fas {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  background-image: linear-gradient(to right, orange, #ff4500);
+}
+
+.footer-box .form-control {
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+
+hr {
+  background-color: #fff;
+}
+
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
 }

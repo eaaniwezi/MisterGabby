@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MisterGabby</title>
   <link rel="stylesheet" href="style.css">
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -19,26 +22,26 @@
   <section id="nav-bar">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">MisterGabby</a>
+      <a class="navbar-brand" href="#"><img src="images/iconName.jfif" alt="" srcset=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">HOME</a>
+            <a class="nav-link" href="#top">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">SERVICES</a>
+            <a class="nav-link" href="#sevices">SERVICES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">TESTIMONIALS</a>
+            <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
+            <a class="nav-link" href="#footer">CONTACT</a>
           </li>
         </ul>
     </nav>
@@ -52,15 +55,20 @@
       <div class="row">
         <div class="col-md-6">
           <p class="promo-title">MisterGabby Errands Services</p>
-          <p>Need Anything Done in Moscow?<output></output></p>
-          <a href=""><img src="images/help.png" class="help-btn" alt="Need help?"></a>Need Help?
+          <br>
+          <p class="errands">WE RUN <br> ERRANDS FOR YOU IN MOSCOW. <br> WITH US, LOGISTICS IS SUPER EASY!<output></output></p>
+          <a href=""><img src="images/help.png" class="help-btn" alt="Need help?"></a>Need Anything Done in Moscow?
         </div>
         <div class="col-md-6 text-center">
-            <img src="images/package.png" class="img-fluid package-btn" alt="Moscow">
+          <img src="images/package.png" class="img-fluid package-btn" alt="Moscow">
         </div>
       </div>
     </div>
-    <!-- <img src="images/wave.png" alt="wave" class="bottom-img"> -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#f3f4f5" fill-opacity="1"
+        d="M0,160L40,176C80,192,160,224,240,208C320,192,400,128,480,96C560,64,640,64,720,64C800,64,880,64,960,96C1040,128,1120,192,1200,224C1280,256,1360,256,1400,256L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
   </section>
 
   <!-- services -->
@@ -68,25 +76,25 @@
 
   <section id="services">
     <div class="container text-center">
-        <h1 class="title">WHAT WE DO</h1>
-        <div class="row text-center">
-            <div class="col-md-4 services">
-                <img src="images/document.png" class="service-img" alt="documents" srcset="">
-                <h4>Documents Processing</h4>
-                <p>We help you run all neccessary documents here in Moscow</p>
-            </div>
-            <div class="col-md-4 services">
-                <img src="images/delivery.png" class="service-img" alt="documents" srcset="">
-                <h4>Sending Goods/Documents to Cities</h4>
-                <p>We also buy and send goods to other cities</p>
-            </div>
-            <div class="col-md-4 services">
-                <img src="images/tour.png" class="service-img" alt="documents" srcset="">
-                <h4>Tourist Guide</h4>
-                <p>Are you bothered about getting lost in Moscow? Dont bother much!! We got you covered</p>
-            </div>
+      <h1 class="title">WHAT WE DO</h1>
+      <div class="row text-center">
+        <div class="col-md-4 services">
+          <img src="images/document.png" class="service-img" alt="documents" srcset="">
+          <h4>Documents Processing</h4>
+          <p>We help you run all neccessary documents here in Moscow</p>
         </div>
-        <button type="button" class="btn btn-success">All services</button>
+        <div class="col-md-4 services">
+          <img src="images/delivery.png" class="service-img" alt="documents" srcset="">
+          <h4>Sending Goods/Documents to Cities</h4>
+          <p>We also buy and send goods to other cities</p>
+        </div>
+        <div class="col-md-4 services">
+          <img src="images/tour.png" class="service-img" alt="documents" srcset="">
+          <h4>Tourist Guide</h4>
+          <p>Are you bothered about getting lost in Moscow? Dont bother much!! We got you covered</p>
+        </div>
+      </div>
+      <button type="button" class="btn">All services</button>
     </div>
   </section>
 
@@ -114,41 +122,79 @@
     </div>
   </section>
 
- <!-- Testimonials -->
+  <!-- Testimonials -->
 
- <section id="testimonials">
-   <div class="container">
-    <h1 class="title text-center">WHAT CLIENTS SAY</h1>
-    <br>
-    <br>
-    <div class="row offset-1">
-      <div class="col-md-5 testimonials">
-        <P>Thanks Man..You really saved me alot stress</P>
-        <img src="images/face.jpg" alt="" srcset="">
-        <p class="user-detail"><b>Lewiz</b><br>Software Developer</p>
-      </div>
-      <div class="col-md-5 testimonials">
-        <P>Thanks Man..You really saved me alot stress</P>
-        <img src="images/face.jpg" alt="" srcset="">
-        <p class="user-detail"><b>Lewiz</b><br>Software Developer</p>
+  <section id="testimonials">
+    <div class="container">
+      <h1 class="title text-center">WHAT CLIENTS SAY</h1>
+      <br>
+      <br>
+      <div class="row offset-1">
+        <div class="col-md-5 testimonials">
+          <P>Thanks Man..You really saved me alot stress</P>
+          <img src="images/face.jpg" alt="" srcset="">
+          <p class="user-detail"><b>Lewiz</b><br>Software Developer</p>
+        </div>
+        <div class="col-md-5 testimonials">
+          <P>Thanks Man..You really saved me alot stress</P>
+          <img src="images/face.jpg" alt="" srcset="">
+          <p class="user-detail"><b>Lewiz</b><br>Software Developer</p>
+        </div>
       </div>
     </div>
-   </div>
- </section>
+  </section>
 
- <!-- Socials  -->
+  <!-- Socials  -->
 
- <section id="social-media">
-  <div class="container text-center">
-<p>FIND US ON SOCIAL MEDIA</p>
-<div class="social-icons"></div>
-<!-- <i class="fab fa-facebook"></i>
-<i class='bx bxl-facebook-circle'></i> -->
-<!-- <a href="#"><img src="images/ig.png" alt="" srcset=""></a>
-<a href="#"><img src="images/facebook.png" alt="" srcset=""></a>
-<a href="#"><img src="images/whatsapp.png" alt="" srcset=""></a> -->
-</div>
- </section>
+  <section id="social-media">
+    <div class="container text-center">
+      <p>FIND US ON SOCIAL MEDIA</p>
+      <div class="social-icons"></div>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+    </div>
+  </section>
+
+  <!-- footer -->
+
+  <section id="footer">
+    <svg class="footer-img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#f3f4f5" fill-opacity="1"
+        d="M0,96L40,112C80,128,160,160,240,165.3C320,171,400,149,480,165.3C560,181,640,235,720,256C800,277,880,267,960,229.3C1040,192,1120,128,1200,101.3C1280,75,1360,85,1400,90.7L1440,96L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-md-4 footer-box">
+            <img src="images/icon.jfif" alt="" srcset="">
+            <p>ssdfghjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</p>
+          </div>
+          <div class="col-md-4 footer-box">
+           <p><b>CONTACT US</b></p>
+           <p><i class="fas fa-map-marker-alt"></i>MISTER GABBY</p>
+           <p><i class="fas fa-phone-alt"></i> 000000123456789</p>
+           <p>gabby@gabby.com</p>
+          </div>
+          <div class="col-md-4 footer-box">
+            <p><b>SUBSCRIBE NEWSLETTER</b></p>
+            <input type="email" class="form-control" placeholder="Your Email">
+            <br>
+            <button type="button" class="btn ">Subcribe</button>
+           </div>
+        </div>
+        <hr>
+        <p class="copyright">Website created by Aninwezi</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- smooth scroll -->
+  <script src="smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 </body>
-
 </html>
